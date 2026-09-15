@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Una mas</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap');
+
+    body {
+      background-color: #ffffff;
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    h1 {
+      font-family: "BBH Bartle", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-align: center;
+      color: #031923;
+      margin: 10px 0;
+    }
+
+    /* BARRA NAVEGACIÓN */
+    .barra-navegacion {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #b1aea8;
+      padding: 15px 30px;
+    }
+
+    .barra-navegacion span img {
+      width: 100px;
+      height: auto;
+    }
+
+    .activo {
+      background-color: #ffffff;
+      color: #031923;
+      padding: 8px 15px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .activo1 {
+      background-color: #b1aea8;
+      color: #031923;
+      padding: 8px 15px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    /* BOTONES Y REDES SOCIALES */
+    .whatsapp, .mercadopago, .instagran {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 15px 0;
+      gap: 10px;
+    }
+
+    .whatsapp img, .mercadopago img, .instagran img {
+      width: 35px;
+      height: 35px;
+      object-fit: contain;
+    }
+
+    /* AJUSTE DE CLASE SETAPPS (Acá estaba el error del tamaño gigante) */
+    .setapps {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 220px;
+      height: auto;
+      font-size: 14px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-decoration: none;
+      padding: 10px 15px;
+      background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+      border-radius: 8px;
+      color: white;
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    /* GRILLA Y TARJETAS DE PRODUCTOS */
+    .grid-productos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .tarjetas {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+
+    .tarjeta {
+      background-color: #00224D;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      display: flex;
+      flex-direction: column;
+      width: 250px;
+      color: white;
+    }
+
+    .tarjeta img {
+      width: 100%;
+      height: auto;
+    }
+
+    .producto-info {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    /* MEDIA QUERY PARA CELULARES */
+    @media (max-width: 768px) {
+      .barra-navegacion {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        padding: 15px;
+      }
+
+      .barra-navegacion h1 {
+        font-size: 20px;
+      }
+
+      .tarjeta {
+        width: 90%;
+        max-width: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="barra-navegacion">
+    <span><img src="Gemini_Generated_Image_ocs28focs28focs2.jpg" alt="Logo"></span>
+    <h1>UNA MAS ECO CIRCULAR</h1>
+    <div>
+      <a href="web.html" class="activo">Inicio</a>
+      <a href="contacto.html" class="activo1">Contacto</a>
+    </div>
+  </nav>
+
+  <div>
+    <div class="whatsapp">
+      <img src="wsp.webp" alt="WhatsApp">
+      <a href="https://wa.me/+5493517595315" class="setapps">Mandanos un Whatsapp</a>
+    </div>
+
+    <div class="mercadopago">
+      <img src="mp.webp" alt="Mercado Pago">
+      <a href="link.mercadopago.com.ar/lafamiliabusiness" class="setapps">Link de Mercado Pago</a>
+    </div>
+
+    <div class="instagran">
+      <img src="ig.webp" alt="Instagram">
+      <a href="https://www.instagram.com/unamas.eco" target="_blank" rel="noopener noreferrer" class="setapps">Seguinos en Instagram</a>
+    </div>
+  </div>
+
+</body>
+</html>
