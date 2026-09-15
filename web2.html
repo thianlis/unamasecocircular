@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Una mas
+
+</title>
+<style>
+    
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap');
+
+
+
+h1 {
+  font-family: "BBH Bartle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+   h1{
+      text-align: right;
+      color: #031923;
+   }
+ .barra-navegacion {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #b1aea8;
+ padding: 15px 30px;
+ }
+ .barra-navegacion a {
+ color: #031923;
+ text-decoration: none;
+ margin-left: 20px;
+ 
+ }
+ .activo{
+    background-color: #ffffff;
+ }
+ .tarjetas {
+ display: flex;
+ gap: 20px;
+ padding: 20px;
+ flex-wrap: wrap;
+ }
+
+  .tarjeta {
+      background-color: #00224D;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      display: flex;
+      flex-direction: column;
+      width: 250px;
+      color: white;
+    }
+        .producto-info {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+ img{
+    width: 250px;
+    align-items: center;
+ }
+ a{
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+ }
+ body{
+   background-color: #ffffff;
+ }
+ .whatsapp {
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 15px 0;
+      gap: 10px;
+    }
+
+    .whatsapp img {
+      width: 50px;
+    }
+
+    .whatsapp a {
+      text-decoration: none;
+      padding: 5px;
+      background-image:linear-gradient(to top, #09203f 0%, #537895 100%);;
+      border-radius: 8px;
+      color: white;
+    }
+
+    .mercadopago {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 15px 0;
+    }
+
+    .mercadopago a {
+      text-decoration: none;
+      padding: 5px;
+      background-image:linear-gradient(to top, #09203f 0%, #537895 100%);;
+      border-radius: 8px;
+      color: white;
+    }
+
+    .mercadopago img {
+      width: 30px;
+      border-radius: 8px;
+    }
+
+    .instagran {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 15px 0;
+    }
+
+    .instagran img {
+      width: 30px;
+      border-radius: 8px;
+    }
+
+    .instagran a {
+      text-decoration: none;
+      padding: 5px;
+      background-image:linear-gradient(to top, #09203f 0%, #537895 100%);;
+      border-radius: 8px;
+      color: white;
+    }
+
+        .grid-productos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+</style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <div class="logo-icon">
+        <svg viewBox="0 0 24 24">
+          <path d="M2 12c5-4 7-4 10 0s5 4 10 0"></path>
+        </svg>
+      </div>
+      <h1>UNA MAS ECO CIRCULAR</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Sucursales</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="catalog">
+    <!-- Producto 1 -->
+    <article class="card">
+      <img src="https://via.placeholder.com/300x300" alt="Bermuda Rayada" class="card-img">
+      <div class="card-content">
+        <h2 class="card-title">Bermuda Rayada Eco</h2>
+        <div class="card-price">$25.000</div>
+        <p class="card-description">Confeccionada con textiles reciclados de alta durabilidad y secado rápido.</p>
+        <a href="#" class="btn-buy">Ver producto</a>
+      </div>
+    </article>
+
+    <!-- Producto 2 -->
+    <article class="card">
+      <img src="https://via.placeholder.com/300x300" alt="Bermuda Lisa" class="card-img">
+      <div class="card-content">
+        <h2 class="card-title">Bermuda Denim Circular</h2>
+        <div class="card-price">$28.500</div>
+        <p class="card-description">Diseño clásico en tono oscuro. Algodón recuperado con impacto ambiental reducido.</p>
+        <a href="#" class="btn-buy">Ver producto</a>
+      </div>
+    </article>
+
+    <!-- Producto 3 -->
+    <article class="card">
+      <img src="https://via.placeholder.com/300x300" alt="Bermuda Rayada" class="card-img">
+      <div class="card-content">
+        <h2 class="card-title">Bermuda Playera Striped</h2>
+        <div class="card-price">$24.000</div>
+        <p class="card-description">Ideal para el verano, liviana y producida bajo procesos sostenibles.</p>
+        <a href="#" class="btn-buy">Ver producto</a>
+      </div>
+    </article>
+
+    <!-- Producto 4 -->
+    <article class="card">
+      <img src="https://via.placeholder.com/300x300" alt="Bermuda Lisa" class="card-img">
+      <div class="card-content">
+        <h2 class="card-title">Bermuda Urbana Gris</h2>
+        <div class="card-price">$27.000</div>
+        <p class="card-description">Corte cómodo y versátil para uso diario con materiales sustentables.</p>
+        <a href="#" class="btn-buy">Ver producto</a>
+      </div>
+    </article>
+  </main>
+
+</body>
+</html>

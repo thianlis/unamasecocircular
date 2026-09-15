@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Una mas
+
+</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&display=swap');
+
+  body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+  h1 {
+    font-family: "BBH Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #031923;
+    margin: 10px 0;
+  }
+
+
+  .barra-navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b1aea8;
+    padding: 15px 30px;
+  }
+
+  
+  .barra-navegacion > span img {
+    width: 150px;
+    height: auto;
+  }
+
+
+  .menu-links {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .activo, .activo1 {
+    display: inline-block;
+    text-align: center;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+
+  .activo {
+    background-color: #ffffff;
+    color: #031923;
+  }
+
+  .activo1 {
+    background-color: #031923;
+    color: #ffffff;
+  }
+
+  /* Bloques de redes sociales (WhatsApp, MP, Instagram) */
+  .whatsapp, .mercadopago, .instagran {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  .whatsapp img, .mercadopago img, .instagran img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+
+  .whatsapp a, .mercadopago a, .instagran a {
+    text-decoration: none;
+    padding: 8px 12px;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+  }
+
+  .grid-productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .tarjeta {
+    background-color: #00224D;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    color: white;
+  }
+
+  .tarjeta img {
+    width: 100%;
+    height: auto;
+  }
+
+  .producto-info {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  
+  @media (max-width: 768px) {
+    .barra-navegacion {
+      flex-direction: column;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .menu-links {
+      justify-content: center;
+    }
+
+    .whatsapp, .mercadopago, .instagran {
+      justify-content: center;
+    }
+
+    .tarjeta {
+      width: 90%;
+      max-width: 300px;
+    }
+  }
+</style>
+</style>
+</head>
+<body>
+ <nav class="barra-navegacion">
+ <span><img src="Gemini_Generated_Image_ocs28focs28focs2.jpg" alt=""></span><h1>UNA MAS ECO CIRCULAR</h1>
+ <div>
+ <a href="web.html" class="activo1">Inicio</a>
+ <a href="contacto.html" class="activo">Contacto</a>
+    <div class="whatsapp">
+      <img src="wsp.webp" alt="">
+      <a href="https://wa.me/+5493517595315">Mandanos un Whatsapp
+      </a>
+    </div>
+
+    <div class="mercadopago">
+      <img src="mp.webp" alt="">
+      <a href="link.mercadopago.com.ar/lafamiliabusiness">Link de Mercado Pago
+      </a>
+    </div>
+    <div class="instagran">
+      <img src="ig.webp" alt="Instagram">
+      <a href="https://www.instagram.com/unamas.eco" target="_blank" rel="noopener noreferrer" class="ig-link">
+        Seguinos en Instagram
+      </a>
+    </div>
+ </div >   
+ </nav>
+ <div class="grid-productos">
+
+  <div class="tarjeta">
+        <img src="WhatsApp Image 2026-09-04 at 11.01.50.jpeg" alt="Bermuda">
+        <div class="producto-info">
+          <h2>Bermuda</h2>
+          <p>Bermudovich.</p>
+          <span class="precio">$7.900</span>
+          <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+      </div>
+
+      <div class="tarjeta">
+        <img src="WhatsApp Image 2026-09-04 at 11.02.54.jpeg" alt="Bermuda">
+        <div class="producto-info">
+          <h2>Bermuda</h2>
+          <p>Bermudovich.</p>
+          <span class="precio">$7.900</span>
+          <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+      </div>
+
+ </div>
+</div>
+ 
+</div>
+</body>
+</html>
